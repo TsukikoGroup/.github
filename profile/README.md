@@ -9,10 +9,8 @@
 
   <!-- MAIN TITLE -->
   <h1>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Japanese%20Acceptable%20Button.png" width="28" height="28" alt="kanji" />
     <span style="color: #FF1A4D; font-weight: 900; letter-spacing: 1px;">TSUKIKO GROUP</span>
     <span style="color: #FFFFFF; font-weight: 300;">(月子)</span>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Japanese%20Acceptable%20Button.png" width="28" height="28" alt="kanji" />
   </h1>
 
   <p align="center">
