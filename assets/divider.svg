@@ -1,0 +1,20 @@
+<svg width="800" height="20" viewBox="0 0 800 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="crimson_glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0044" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#ff0044" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#ff3366" stop-opacity="1"/>
+      <stop offset="75%" stop-color="#ff0044" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ff0044" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <line x1="20" y1="10" x2="380" y2="10" stroke="url(#crimson_glow)" stroke-width="1.5"/>
+  <circle cx="400" cy="10" r="5" fill="#ff0044" filter="url(#glow)"/>
+  <circle cx="400" cy="10" r="2.5" fill="#ffffff"/>
+  <polygon points="400,2 403,8 409,10 403,12 400,18 397,12 391,10 397,8" fill="#ff2255" opacity="0.6"/>
+  <line x1="420" y1="10" x2="780" y2="10" stroke="url(#crimson_glow)" stroke-width="1.5"/>
+</svg>
